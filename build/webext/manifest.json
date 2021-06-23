@@ -17,12 +17,11 @@
     ],
     "applications": {
         "gecko": {
-            "id": "jid1-tHrhDJXsKvsiCw@jetpack",
-            "update_url": "https://ponymotes.net/bpm/we/updates.json"
+            "id": "jid1-tHrhDJXsKvsiCw@jetpack"
         }
     },
     "description": "View Reddit ponymotes across the site",
-    "homepage_url": "https://ponymotes.net/bpm/",
+    "homepage_url": "https://github.com/dalekolt/betterredditmotes",
     "manifest_version": 2,
     "minimum_chrome_version": "26",
     "name": "betterredditmotes",
@@ -38,7 +37,7 @@
         "http://*.redditmedia.com/",
         "https://*.redditmedia.com/"
     ],
-    "version": "0.0001",
+    "version": "1.000.00",
     "web_accessible_resources": [
         "bpmotes.css",
         "emote-classes.css",
