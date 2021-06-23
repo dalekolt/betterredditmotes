@@ -1,0 +1,50 @@
+{
+    "background": {
+        "page": "background.html"
+    },
+    "content_scripts": [
+        {
+            "all_frames": true,
+            "js": [
+                "bpm-resources.js",
+                "betterredditmotes.js"
+            ],
+            "matches": [
+                "*://*/*"
+            ],
+            "run_at": "document_start"
+        }
+    ],
+    "applications": {
+        "gecko": {
+            "id": "jid1-tHrhDJXsKvsiCw@jetpack",
+            "update_url": "https://github.com/dalekolt/betterredditmotes/blob/main/www/we/updates.json"
+        }
+    },
+    "description": "View Reddit ponymotes across the site",
+    "homepage_url": "https://github.com/dalekolt/betterredditmotes",
+    "manifest_version": 2,
+    "minimum_chrome_version": "26",
+    "name": "betterredditmotes",
+    "options_ui": {
+        "page": "options.html",
+        "browser_style": true
+    },
+    "permissions": [
+        "http://*.reddit.com/",
+        "https://*.reddit.com/",
+        "http://*.redditstatic.com/",
+        "https://*.redditstatic.com/",
+        "http://*.redditmedia.com/",
+        "https://*.redditmedia.com/"
+    ],
+    "version": "1.000.00",
+    "web_accessible_resources": [
+        "bpmotes.css",
+        "emote-classes.css",
+        "combiners-nsfw.css",
+        "extracss-pure.css",
+        "extracss-webkit.css",
+        "options.html"
+    ]
+}

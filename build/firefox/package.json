@@ -1,0 +1,18 @@
+{
+    "author": "Typhos",
+    "description": "View Reddit ponymotes across the site",
+    "fullName": "betterredditmotes",
+    "id": "jid1-tHrhDJXsKvsiCw@jetpack",
+    "license": "AGPL v3",
+    "name": "betterredditmotes",
+    "permissions": {"private-browsing": true,"multiprocess": true},
+    "preferences": [
+        {
+            "label": "Preferences",
+            "name": "openPrefs",
+            "title": "Open prefs",
+            "type": "control"
+        }
+    ],
+    "version": "1.000.00.mozold"
+}
