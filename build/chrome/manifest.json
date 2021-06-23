@@ -1,0 +1,41 @@
+{
+    "background": {
+        "page": "background.html"
+    },
+    "content_scripts": [
+        {
+            "all_frames": true,
+            "js": [
+                "bpm-resources.js",
+                "betterredditmotes.js"
+            ],
+            "matches": [
+                "*://*/*"
+            ],
+            "run_at": "document_start"
+        }
+    ],
+    "description": "View Reddit ponymotes across the site",
+    "homepage_url": "https://ponymotes.net/bpm/",
+    "manifest_version": 2,
+    "minimum_chrome_version": "26",
+    "name": "betterredditmotes",
+    "options_page": "options.html",
+    "permissions": [
+        "http://*.reddit.com/",
+        "https://*.reddit.com/",
+        "http://*.redditstatic.com/",
+        "https://*.redditstatic.com/",
+        "http://*.redditmedia.com/",
+        "https://*.redditmedia.com/"
+    ],
+    "version": "0.0001",
+    "web_accessible_resources": [
+        "bpmotes.css",
+        "emote-classes.css",
+        "combiners-nsfw.css",
+        "extracss-pure.css",
+        "extracss-webkit.css",
+        "options.html"
+    ]
+}
