@@ -3,28 +3,8 @@
     "jid1-tHrhDJXsKvsiCw@jetpack": {
       "updates": [
         {
-          "version": "66.262.2",
+          "version": "00.000.1",
           "update_link": "https://ponymotes.net/bpm/we/betterredditmotes-66.262.2-an+fx.xpi"
-        },
-        {
-          "version": "66.263",
-          "update_link": "https://ponymotes.net/bpm/we/betterredditmotes-66.263-an+fx.xpi"
-        },
-        {
-          "version": "66.264",
-          "update_link": "https://ponymotes.net/bpm/we/betterredditmotes-66.264-an+fx.xpi"
-        },
-        {
-          "version": "66.265",
-          "update_link": "https://ponymotes.net/bpm/we/betterredditmotes-66.265-an+fx.xpi"
-        },
-        {
-          "version": "66.266",
-          "update_link": "https://ponymotes.net/bpm/we/betterredditmotes-66.266-an+fx.xpi"
-        },
-        {
-          "version": "66.267",
-          "update_link": "https://ponymotes.net/bpm/we/betterredditmotes-66.267-an+fx.xpi"
         }
       ]
     }
